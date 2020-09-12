@@ -10,3 +10,11 @@ elif numb%2 == 0:
     print ('The number is even')
 else:
     print ('The number is odd')
+
+big_numb = int(input('Please enter the higher number:'))
+small_numb = int(input('Please enter the smaller number:'))
+
+if big_numb%small_numb ==0:
+    print(big_numb , ' is a multiple of ' , small_numb )
+else:
+    print(big_numb , ' is not a multiple of ' , small_numb)
