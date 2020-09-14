@@ -10,4 +10,12 @@ for i in list_to_use:
         new_list.append(i)
 print (new_list)
 
+'''Ask for a number and print out a list of numbers smaller than that number'''
+
+number_input = int(input('Please insert a number: '))
+
+for i in list_to_use:
+    if i < number_input:
+        print (i)
+
 
