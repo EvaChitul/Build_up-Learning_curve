@@ -18,4 +18,6 @@ for i in list_to_use:
     if i < number_input:
         print (i)
 
+'''Write it in one line of code'''
 
+print([i for i in list_to_use if i < 8])
